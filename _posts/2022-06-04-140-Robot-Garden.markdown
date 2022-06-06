@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Robot Garden"
+date:   2022-06-01 14:29:23 -0400
+audio_id: audio tour location 140
+---
+This outdoor obstacle course will be surrounded by motion-capture cameras for studying robots on stairs, rocks and water. It was designed by Matias del Campo, an associate professor in the A. Alfred Taubman College of Architecture and Urban Planning, and Robotics PhD candidate Alexa Carlson, with the help of AI. The team fed a neural network thousands of satellite images of the site, which resulted in several designs which they refined from otherworldly to a perfect fit for testing robots on a multitude of terrains.
+
+![Robots pose on the stairs]({{ site.url }}/assets//images/140-robot-garden.jpg)
+
+## Related
+* [SPAN Architecture website](https://span-arch.org/robot-garden/)

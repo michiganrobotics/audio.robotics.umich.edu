@@ -1,0 +1,26 @@
+---
+---
+$base-font-family: 'Open Sans',sans-serif;
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+
+
+h1,h2,h3,h4,h5,h6,.site-title{
+	font-family: 'Roboto Condensed',sans-serif;
+}
+
+.logo{
+	display:block;
+	margin-top:20px;
+}
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+#nearby-locations{
+	margin-top:4em;
+}

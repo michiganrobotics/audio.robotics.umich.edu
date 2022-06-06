@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Rehabilitation Lab"
+date:   2022-06-02 14:29:23 -0400
+audio_id: audio tour location 130
+---
+This space combines mechanics and controls to develop advanced prosthetics that improve quality of life for people with limb loss. A movable “earthquake platform,"" or it's technical name of a Stewart platform, can tilt in any direction, force-feedback plates measure ground contact and a two-belt variable treadmill enables testing of lower-limb prosthetics.
+
+The glass can turn opaque for privacy during testing.
+
+![Open-source bionic leg]({{ site.url }}/assets//images/130-rehab-lab.jpg)
+
+## Related
+* [YouTube: Open-Source Bionic Leg](https://www.youtube.com/watch?v=Rqla0u813r8)
+* [Locomotor Control Systems Lab](https://web.eecs.umich.edu/locolab/)
+* [Neurobionics Lab](https://neurobionics.robotics.umich.edu)
