@@ -6,7 +6,7 @@ audio_id: audio tour location 110
 ---
 Equipped with high-speed motion-capture cameras, this three-story fly zone enables researchers to test drones and other autonomous aerial systems indoors. This complements the M-Air facility right outside, giving aerial and autonomous systems increasingly real-world testing grounds to prove their safety and reliability.
 
-![Prince holding a drone]({{ site.url }}/assets//images/110-fly-lab.jpg)
+![Prince holding a drone](/assets/images/110-fly-lab.jpg)
 
 ## Related
 * [YouTube: Drone performing autonomous roofing](https://www.youtube.com/watch?v=GA445Flxkjo)

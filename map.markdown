@@ -4,4 +4,4 @@ title: Map
 permalink: /map/
 ---
 
-![building tour map]({{ site.url }}/assets//images/map-audio-tour.jpg)
+![building tour map](/assets/images/map-audio-tour.jpg)

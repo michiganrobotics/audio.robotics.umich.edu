@@ -8,7 +8,7 @@ This space combines mechanics and controls to develop advanced prosthetics that 
 
 The glass can turn opaque for privacy during testing.
 
-![Open-source bionic leg]({{ site.url }}/assets//images/130-rehab-lab.jpg)
+![Open-source bionic leg](/assets/images/130-rehab-lab.jpg)
 
 ## Related
 * [YouTube: Open-Source Bionic Leg](https://www.youtube.com/watch?v=Rqla0u813r8)
