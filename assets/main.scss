@@ -36,3 +36,9 @@ h1,h2,h3,h4,h5,h6,.site-title{
 	background:#eeeeee;
 	padding:.5em;
 }
+
+@media (max-width: 640px) {
+	body{
+		margin-bottom:6em;
+	}
+}
