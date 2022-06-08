@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "ROB 550 Lab"
+date:   2022-05-28 14:29:23 -0400
+audio_id: audio tour location 210
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![Students watch as their robots compete in pathfinding competitions](/assets/images/210-rob-550.jpg)
+
+This classroom lab space houses the first robotics graduate course students take, ROB 550, which is informally a robot bootcamp. This course gives students the basics in building, programming, and refining the autonomous machines so that they can sense, reason, and act. Projects have included a self-balancing robot, a robot that can navigate a maze on its own, a drone that can pick up and drop off a payload, and a manipulating arm that can stack blocks.
+
+## Related
+* [YouTube: ROB 550 Arm Lab](https://www.youtube.com/watch?v=mMpqfWPHeX4)
+* [YouTube: ROB 550 Balance Bots](https://www.youtube.com/watch?v=BVYqVGZNSFY)
+* [YouTube: ROB 550 Maze Bots](https://www.youtube.com/watch?v=pwV6g7gusOQ)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'ROB 550 Lab',
+     artist: 'Location 210',
+     cover: '/assets/images/210-rob-550.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

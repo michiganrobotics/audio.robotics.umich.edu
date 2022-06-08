@@ -37,6 +37,38 @@ h1,h2,h3,h4,h5,h6,.site-title{
 	padding:.5em;
 }
 
+#floor1,#floor2,#floor3{
+	padding:.5em;
+}
+
+#floor1{
+	border-top:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+}
+
+#floor2{
+background-color:#6A857B;
+color:#ffffff;
+}
+
+#floor3{
+background-color:#5F4D76;
+color:#ffffff;
+}
+
+.post-feta{
+	@extend .post-meta;
+	margin-left: .25em;
+	background: #eee;
+	color: #4F4F4F;
+	padding-left: .15em;
+	padding-right: .15em;
+	padding-top: .05em;
+	padding-bottom: .05em;
+	border-radius: 3px;
+}
+
 @media (max-width: 640px) {
 	body{
 		margin-bottom:6em;
