@@ -12,6 +12,7 @@ permalink: /tourmap/
 <li>Fly Lab <a href="{% link _posts/2022-06-04-110-fly-lab.markdown %}"><span class="post-feta">110</span></a></li>
 <li>McNeil Walking Robotics Lab <a href="{% link _posts/2022-06-04-120-walk-lab.markdown %}"><span class="post-feta">120</span></a></li>
 <li>Rehabilitation Lab <a href="{% link _posts/2022-06-04-130-rehab-lab.markdown %}"><span class="post-feta">130</span></a></li>
+<li>Robot Garden <a href="{% link _posts/2022-06-04-140-robot-garden.markdown %}"><span class="post-feta">140</span></a></li>
 <li>Student Team Incubator <a href="{% link _posts/2022-06-04-150-student-team-incubator.markdown %}"><span class="post-feta">150</span></a></li>
 <li>Makerspace <a href="{% link _posts/2022-06-04-160-makerspace.markdown %}"><span class="post-feta">160</span></a></li>
 <li>Mars Yard <a href="{% link _posts/2022-06-04-170-mars-yard.markdown %}"><span class="post-feta">170</span></a></li>
