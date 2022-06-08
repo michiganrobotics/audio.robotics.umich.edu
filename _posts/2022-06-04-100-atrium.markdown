@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Atrium"
+date:   2022-06-06 14:29:23 -0400
+audio_id: audio tour location 100
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![Students and visitors show off robots around the atrium stage](/assets/images/100-robotics-atrium.jpg)
+
+Welcome to the Ford Motor Company Robotics Building! Here, students, staff and faculty work together under one roof to drive the field of robotics toward a future that puts people, not just technology, first. While exploring our new space, we’ve set up a self-guided tour of the highlights around and outside the 134,000-square-foot building, just look for signs like this one!
+
+
+## Related
+* [YouTube: The new Ford Robotics Building](https://www.youtube.com/watch?v=Nckogu4XZ28)
+* [Michigan Robotics](https://robotics.umich.edu)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'The Atrium',
+     artist: 'Location 100',
+     cover: '/assets/images/100-robotics-atrium.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

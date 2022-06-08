@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Mars Yard"
+date:   2022-05-30 14:29:23 -0400
+audio_id: audio tour location 170
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![The MRover student team and their rover pose on top of the Mars Yard](/assets/images/170-mars-yard.jpg)
+
+Here, students and researchers can test rover and lander concepts on red soil that mimics the red planet’s surface in more than just color, but material as well, which was designed with input from planetary scientists at U-M and NASA JPL.
+
+## Related
+* [Michigan Mars Rover team](https://mrover.org)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Mars Yard',
+     artist: 'Location 170',
+     cover: '/assets/images/170-mars-yard.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Makerspace"
+date:   2022-05-31 14:29:23 -0400
+audio_id: audio tour location 160
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![A digital drill press](/assets/images/160-makerspace.jpg)
+
+This 2,600-square-foot on-site shop helps ground students in hands-on hardware fabrication in addition to advancing groundbreaking hardware. It’s outfitted with a complete set of shop tools, like a drill press, and the latest advanced equipment.
+
+Equipment includes:
+* 3D printers
+* laser cutters
+* CNCs
+* pick-and-place equipment
+
+## Related
+* [SPAN Architecture website](https://span-arch.org/robot-garden/)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Robot Makerspace',
+     artist: 'Location 160',
+     cover: '/assets/images/160-makerspace.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>
