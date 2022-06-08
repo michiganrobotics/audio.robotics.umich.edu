@@ -4,11 +4,36 @@ title:  "Robot Garden"
 date:   2022-06-01 14:29:23 -0400
 audio_id: audio tour location 140
 ---
-{% include embed-audio.html src="/assets/audio/140-robot-garden.mp3" %}
 
-This outdoor obstacle course will be surrounded by motion-capture cameras for studying robots on stairs, rocks and water. It was designed by Matias del Campo, an associate professor in the A. Alfred Taubman College of Architecture and Urban Planning, and Robotics PhD candidate Alexa Carlson, with the help of AI. The team fed a neural network thousands of satellite images of the site, which resulted in several designs which they refined from otherworldly to a perfect fit for testing robots on a multitude of terrains.
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
 
 ![Robots pose on the stairs](/assets/images/140-robot-garden.jpg)
 
+This outdoor obstacle course will be surrounded by motion-capture cameras for studying robots on stairs, rocks and water. It was designed by Matias del Campo, an associate professor in the A. Alfred Taubman College of Architecture and Urban Planning, and Robotics PhD candidate Alexa Carlson, with the help of AI. The team fed a neural network thousands of satellite images of the site, which resulted in several designs which they refined from otherworldly to a perfect fit for testing robots on a multitude of terrains.
+
+
 ## Related
 * [SPAN Architecture website](https://span-arch.org/robot-garden/)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Robot Garden',
+     artist: 'Location 140',
+     cover: '/assets/images/140-robot-garden.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

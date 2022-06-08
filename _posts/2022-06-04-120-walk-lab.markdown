@@ -4,9 +4,12 @@ title:  "McNeil Walking Robotics Lab"
 date:   2022-06-04 14:29:23 -0400
 audio_id: audio tour location 120
 ---
-Researchers in the Ronald D. and Regina C. McNeil Walking Robotics Lab are developing legged robots to advance exoskeletons, disaster response, and traversing human-made environments and rough terrain. An in-ground treadmill can be outfitted with obstacles and hit 31 mph and a 20% grade.
 
 ![Digit robot on the treadmill](/assets/images/120-walk-lab.jpg)
+
+Researchers in the Ronald D. and Regina C. McNeil Walking Robotics Lab are developing legged robots to advance exoskeletons, disaster response, and traversing human-made environments and rough terrain. An in-ground treadmill can be outfitted with obstacles and hit 31 mph and a 20% grade.
+
+
 
 ## Related
 * [YouTube: Treadmill testing with Cassie and Mini Cheetah](https://www.youtube.com/watch?v=-UTkbmWdyyA)

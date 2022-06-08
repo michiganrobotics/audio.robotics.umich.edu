@@ -14,6 +14,7 @@ h1,h2,h3,h4,h5,h6,.site-title{
 	display:block;
 	margin-top:20px;
 }
+
 .left{
 	float:left;
 }
@@ -21,6 +22,17 @@ h1,h2,h3,h4,h5,h6,.site-title{
 .right{
 	float:right;
 }
+
 #nearby-locations{
 	margin-top:4em;
+}
+
+.audio-player{
+	margin-bottom:1em;
+}
+
+#related{
+	margin-top:1em;
+	background:#eeeeee;
+	padding:.5em;
 }
