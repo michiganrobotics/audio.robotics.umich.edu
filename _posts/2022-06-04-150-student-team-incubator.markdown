@@ -2,7 +2,7 @@
 layout: post
 title:  "Student Team Incubator"
 date:   2022-05-31 18:29:23 -0400
-audio_id: audio tour location 150
+audio_id: audio location 150
 ---
 
 <div class="audio-player">

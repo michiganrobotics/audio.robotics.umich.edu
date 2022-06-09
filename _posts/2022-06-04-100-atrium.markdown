@@ -2,7 +2,7 @@
 layout: post
 title:  "Atrium"
 date:   2022-06-06 14:29:23 -0400
-audio_id: audio tour location 100
+audio_id: audio location 100
 ---
 
 <div class="audio-player">

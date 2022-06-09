@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Robots mapping and moving"
+date:   2022-05-17 14:29:23 -0400
+audio_id: audio location 340
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![A LIDAR field shows how a robot interprets its environment](/assets/images/340-mapping.jpg)
+
+Just like a human, a robot must know where it is to figure out where it needs to go. In the Computational Autonomy and Robotics Laboratory, researchers develop the algorithms that incorporate simultaneous mapping and localization, or SLAM, allowing robots to reliably operate in any environment, even those never seen before. This work enables a robot to navigate and traverse a disaster site, collaborate in teams with other robots, or with humans for search and rescue or scientific exploration and discovery.
+
+## Related
+* [Youtube: Cassie autonomously navigating](https://www.youtube.com/watch?v=PT2mVaKTdT8)
+* [Youtube: Legged robot state estimation](https://www.youtube.com/watch?v=oVbP-Y8xT_E)
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Robots mapping and moving',
+     artist: 'audio location 340',
+     cover: '/assets/images/340-mapping.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Undergraduate Program"
+title:  "Undergraduate program"
 date:   2022-05-27 14:29:23 -0400
-audio_id: audio tour location 220
+audio_id: audio location 220
 ---
 
 <div class="audio-player">
@@ -29,8 +29,8 @@ Michigan also has the unique opportunity to create this curriculum with a priori
  const player = new Shikwasa({
    container: () => document.querySelector('.audio-player'),
    audio: {
-     title: 'Undergraduate Program',
-     artist: 'Location 220',
+     title: 'Undergraduate program',
+     artist: 'audio location 220',
      cover: '/assets/images/220-undergrad-program.jpg',
      src: '/assets/audio/140-robot-garden.mp3',
    },

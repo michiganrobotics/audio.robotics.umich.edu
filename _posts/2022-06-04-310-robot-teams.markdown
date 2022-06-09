@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Robust robot teams"
+date:   2022-05-22 14:29:23 -0400
+audio_id: audio location 310
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![Three autonomous ground vehicles work together as they move](/assets/images/310-robot-teams.jpg)
+
+Robots that fly have much shorter times to safely react to an event, whether they are constrained by their battery, safe flight paths or landing zones, or even weather. In the Distributed Aerospace Systems and Control (DASC) and Vehicle Optimization, Dynamics, Control & Autonomy (VODCA) Laboratories, researchers address these real-world, safety and time critical problems in autonomous vehicles systems, and not just in flight, but in water, on the ground, and all the way up into space. Through proper planning and control, one or even networks of robots, swarms of drones, or fleets of autonomous vehicles can safely meet their goals, even if one of those robots goes haywire, is hacked, or encounters rough weather.
+
+## Related
+* [DASC Lab](http://www-personal.umich.edu/~dpanagou/labs/index.html)
+* [VODCA Lab](https://vodca.engin.umich.edu)
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Robust robot teams',
+     artist: 'audio location 260',
+     cover: '/assets/images/310-robot-teams.jpg',
+     src: '/assets/audio/140-robot-garden.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

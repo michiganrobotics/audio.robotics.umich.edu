@@ -2,7 +2,7 @@
 layout: post
 title:  "Fly Lab"
 date:   2022-06-05 14:29:23 -0400
-audio_id: audio tour location 110
+audio_id: audio location 110
 ---
 
 ![Prince holding a drone](/assets/images/110-fly-lab.jpg)
