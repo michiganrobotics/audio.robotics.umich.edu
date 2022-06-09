@@ -50,11 +50,17 @@ h1,h2,h3,h4,h5,h6,.site-title{
 #floor2{
 background-color:#6A857B;
 color:#ffffff;
+border-top:1px solid #000000;
+border-left:1px solid #000000;
+border-right:1px solid #000000;
 }
 
 #floor3{
 background-color:#5F4D76;
 color:#ffffff;
+border-bottom:1px solid #000000;
+border-left:1px solid #000000;
+border-right:1px solid #000000;
 }
 
 .post-feta{
@@ -67,6 +73,9 @@ color:#ffffff;
 	padding-top: .05em;
 	padding-bottom: .05em;
 	border-radius: 3px;
+	font-family:'Open Sans',Sans-serif;
+	outline: 1px solid;
+	margin-bottom:3px;
 }
 
 @media (max-width: 640px) {

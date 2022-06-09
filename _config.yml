@@ -53,3 +53,6 @@ plugins:
 #   - vendor/ruby/
 
 permalink: /:title:output_ext
+
+header_pages:
+  - tour-map.markdown

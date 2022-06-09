@@ -6,7 +6,7 @@ permalink: /tourmap/
 
 ![building tour map](/assets/images/map-audio-tour.jpg)
 <div id="floor1">
-<h2>1st floor</h2>
+<h2>1st floor <span class="post-feta">audio tour location</span></h2>
 <ol>
 <li>Atrium <a href="{% link _posts/2022-06-04-100-atrium.markdown %}"><span class="post-feta">100</span></a></li>
 <li>Fly Lab <a href="{% link _posts/2022-06-04-110-fly-lab.markdown %}"><span class="post-feta">110</span></a></li>
