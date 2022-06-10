@@ -20,6 +20,9 @@ h1,h2,h3,h4,h5,h6,.site-title{
 
 #nearby-locations{
 	margin-top:4em;
+	.left,.right{
+		max-width:45%;
+	}
 }
 
 .audio-player{
@@ -54,7 +57,7 @@ h1,h2,h3,h4,h5,h6,.site-title{
 }
 
 #floor2{
-background-color:#6A857B;
+background-color:#617A71;
 color:#ffffff;
 border-top:1px solid #000000;
 border-left:1px solid #000000;
