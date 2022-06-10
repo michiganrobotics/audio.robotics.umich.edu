@@ -22,8 +22,8 @@ layout: default
     <div class="left">
         <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
             <div>
-                <h6>← {{next.audio_id}}</h6>
-                <h4> {{next.title}}</h4>
+                <span class="post-meta">← {{next.audio_id}}</span>
+                <p>{{next.title}}</p>
             </div>
         </a>
     </div>
@@ -36,8 +36,8 @@ layout: default
     <div class="right">
         <a class="equalize" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
             <div>
-                <h6> {{previous.audio_id}} →</h6>
-                <h4> {{previous.title}} </h4>
+                <span class="post-meta"> {{previous.audio_id}} →</span>
+                <p> {{previous.title}} </p>
             </div>
         </a>
     </div>
