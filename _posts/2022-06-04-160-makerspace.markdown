@@ -19,9 +19,6 @@ Equipment includes:
 * CNCs
 * pick-and-place equipment
 
-## Related
-* [SPAN Architecture website](https://span-arch.org/robot-garden/)
-
 
 
 
@@ -32,7 +29,7 @@ Equipment includes:
    container: () => document.querySelector('.audio-player'),
    audio: {
      title: 'Robot Makerspace',
-     artist: 'Location 160',
+     artist: 'location 160',
      cover: '/assets/images/160-makerspace.jpg',
      src: '/assets/audio/140-robot-garden.mp3',
    },

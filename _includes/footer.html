@@ -3,32 +3,32 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
         <ul class="contact-list">
           <li class="p-name">
 2505 Hayward St<br>
 Ann Arbor, MI 48109 | <a href="https://goo.gl/maps/KdHg6KYgc26XqudMA">Map</a>
             </li>
+		<li><a href="https://robotics.umich.edu">robotics.umich.edu</a></li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <div class="footer-col">
+    	  {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Visitor Parking ($): <a href="https://goo.gl/maps/GoJC3yiDtYZmcvMo7">Lot NC26</a><br>
-	  DPSS Non-Emergency Line:  (734) 763-1131<br>
-	  <a href="{% link credits.markdown %}">Site credits</a></p>
-      </div>
+    <div class="footer-col">
+          <p>Visitor Parking ($): <a href="https://goo.gl/maps/GoJC3yiDtYZmcvMo7">Lot NC26</a><br>
+  	  DPSS Non-Emergency Line:  (734) 763-1131<br>
+  	  <a href="{% link credits.markdown %}">Site credits</a></p>
     </div>
 
   </div>
-
+  {% if page.id %}
+      <div class="audio-player-spacer"></div>
+  {% endif %}
+</div>
 </footer>

@@ -24,13 +24,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   An audio tour of the Robotics Building.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "audio.robotics.umich.edu" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: umrobotics
-instagram_username: umrobotics
+minima:
+  social_links:
+    twitter: umrobotics
+    github: michiganrobotics
+    instagram: umrobotics
+    youtube_channel: UC-WH2n-SkB166pUq5o5ULUg
+    youtube_channel_name: umrobotics
+
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: jekyll/minima@296bf6b872b8450529bee1e48d0ca9be200a4be5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
