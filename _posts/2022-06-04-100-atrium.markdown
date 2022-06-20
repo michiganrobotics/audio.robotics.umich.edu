@@ -4,8 +4,8 @@ title:  "Atrium"
 date:   2022-06-06 14:29:23 -0400
 audio_id: audio location 100
 accordion: 
-  - title: <i>audio transcript</i>
-    content: Welcome to the Ford Motor Company Robotics Building!<br>Here, students, staff and faculty work together under one roof to drive the field of robotics toward a future that puts people, not just technology, first. While exploring our new space, we’ve set up a self-guided tour of the highlights around and outside the 134,000-square-foot building, just look for signs like this one!<br>You are in the atrium, a place where students and faculty come together to work on problems, test out solutions, and celebrate community successes over coffee. From here, you can see many of the places we’ll go to on this tour, but did you know not all robotics faculty are in this building? A few faculty have labs elsewhere on campus, such as Professor Cindy Chestek’s Cortical Neural Prosthetics Lab, where they work on upper limb prosthetics that can be controlled by signals from the brain. Meet one robotics master’s student, Christian Leonard, who works in this lab.
+  - title: audio transcript
+    content: <p>Welcome to the Ford Motor Company Robotics Building!</p><p>Here, students, staff and faculty work together under one roof to drive the field of robotics toward a future that puts people, not just technology, first. While exploring our new space, we’ve set up a self-guided tour of the highlights around and outside the 134,000-square-foot building, just look for signs like this one!</p><p>You are in the atrium, a place where students and faculty come together to work on problems, test out solutions, and celebrate community successes over coffee. From here, you can see many of the places we’ll go to on this tour, but did you know not all robotics faculty are in this building? A few faculty have labs elsewhere on campus, such as Professor Cindy Chestek’s Cortical Neural Prosthetics Lab, where they work on upper limb prosthetics that can be controlled by signals from the brain. Meet one robotics master’s student, Christian Leonard, who works in this lab.</p>
 ---
 
 <div class="audio-player">

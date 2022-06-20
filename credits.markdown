@@ -4,10 +4,6 @@ title: Site Credits
 permalink: /credits/
 ---
 
-## Software
-* [Shikwasa](https://github.com/jessuni/shikwasa) web audio player
-* [Jekyll](https://github.com/jekyll/jekyll) [Minima](https://github.com/jekyll/minima)
-
 ## Audio
 
 ## Images
@@ -20,3 +16,7 @@ permalink: /credits/
 * Dan Newman: Atrium, Makerspace, ROB 550 Lab, Undergraduate Program, Robust robot teams
 * [Voxel51](https://voxel51.com/): Computer vision
 * [Biped Robotics Lab](https://www.biped.solutions/): Robots mapping and moving
+
+## Software
+* [Shikwasa](https://github.com/jessuni/shikwasa) web audio player
+* [Jekyll](https://github.com/jekyll/jekyll) [Minima](https://github.com/jekyll/minima)
