@@ -6,7 +6,7 @@ audio_id: audio location 130
 ---
 ![Open-source bionic leg](/assets/images/130-rehab-lab.jpg)
 
-This space combines mechanics and controls to develop advanced prosthetics that improve quality of life for people with limb loss. A movable “earthquake platform,"" or it's technical name of a Stewart platform, can tilt in any direction, force-feedback plates measure ground contact and a two-belt variable treadmill enables testing of lower-limb prosthetics.
+This space combines mechanics and controls to develop advanced prosthetics that improve quality of life for people with limb loss. A movable “earthquake platform," or it's technical name of a Stewart platform, can tilt in any direction, force-feedback plates measure ground contact and a two-belt variable treadmill enables testing of lower-limb prosthetics.
 
 The glass can turn opaque for privacy during testing.
 

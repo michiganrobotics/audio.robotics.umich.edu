@@ -16,8 +16,11 @@ This 2,600-square-foot on-site shop helps ground students in hands-on hardware f
 Equipment includes:
 * 3D printers
 * laser cutters
-* CNCs
-* pick-and-place equipment
+* CNC router
+* waterjet
+* mill
+* lathe
+* welding station
 
 
 

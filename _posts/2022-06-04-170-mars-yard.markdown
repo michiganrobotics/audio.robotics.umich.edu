@@ -13,6 +13,8 @@ audio_id: audio location 170
 
 Here, students and researchers can test rover and lander concepts on red soil that mimics the red planet’s surface in more than just color, but material as well, which was designed with input from planetary scientists at U-M and NASA JPL.
 
+In competition, these rovers climb and descend rocky terrain with their custom wheels and suspensions, while conducting science missions of obtaining and testing samples. This is all accomplished through remote operation.
+
 ## Related
 * [Michigan Mars Rover team](https://mrover.org)
 

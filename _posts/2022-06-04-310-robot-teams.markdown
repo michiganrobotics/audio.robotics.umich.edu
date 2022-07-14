@@ -3,6 +3,9 @@ layout: post
 title:  "Robust robot teams"
 date:   2022-05-22 14:29:23 -0400
 audio_id: audio location 310
+accordion: 
+  - title: audio transcript
+    content: <p>So planning and control under uncertainty is a longstanding topic within robotics and artificial intelligence, the controls communities. Let's consider that we have quad rotor that has to navigate in an environment. So there are obstacles like physical obstacles: the buildings, there might be other quad rotors navigating also around, and it also has to navigate in the presence of processes like, for example, wind.</p><p>So the quad rotor has imperfect information about the environment and it has to make decisions on, for example, whether it's safe to go through this path or it should be better to go around the obstacles. So that it keeps a safe distance with respect to the obstacles and using information about the wind that it doesn't directly measure that it has to estimate on the fly.</p><p>So that creates a problem of safety under uncertainty. And the questions that that are related to this problem would be how we can ensure that the system trajectories will always remain safe in an unknown environment, in an environment that we might not know exactly the location of the obstacles or the wind that is affecting the motion of the vehicle.</p>
 ---
 
 <div class="audio-player">
