@@ -5,7 +5,7 @@ date:   2022-06-01 14:29:23 -0400
 audio_id: audio location 140
 accordion: 
   - title: audio transcript
-    content: <p>One thing that I observed is that very often it's us humans interpreting a result that comes out of a neural network in a creative way. This doesn't mean the neural network is creative, but the result inspires us to be creative. Yeah, and I think that's a very valuable tool. It's a very valuable thing to have. And because it's based on in the majority of cases, not in all cases, unknown data, it will mean, it will contain certain aspects that are familiar to us.</p><p>That's why it makes it readable to us, to being architecture or a specific building or a car. So we we recognize certain things in those results that allow us to interpret them as specific objects, and thus we can continue developing them as an architectural design.</p>
+    content: "<p>One thing that I observed is that very often it's us humans interpreting a result that comes out of a neural network in a creative way. This doesn't mean the neural network is creative, but the result inspires us to be creative. Yeah, and I think that's a very valuable tool. It's a very valuable thing to have. And because it's based on in the majority of cases, not in all cases, unknown data, it will mean, it will contain certain aspects that are familiar to us.</p><p>That's why it makes it readable to us, to being architecture or a specific building or a car. So we we recognize certain things in those results that allow us to interpret them as specific objects, and thus we can continue developing them as an architectural design.</p>"
 ---
 
 <div class="audio-player">
@@ -16,6 +16,7 @@ accordion:
 
 This outdoor obstacle course will be surrounded by motion-capture cameras for studying robots on stairs, rocks and water. It was designed by Matias del Campo, an associate professor in the A. Alfred Taubman College of Architecture and Urban Planning, and Robotics PhD candidate Alexa Carlson, with the help of AI. The team fed a neural network thousands of satellite images of the site, which resulted in several designs which they refined from otherworldly to a perfect fit for testing robots on a multitude of terrains.
 
+{% include accordion.html %}
 
 ## Related
 * [SPAN Architecture website](https://span-arch.org/robot-garden/)
