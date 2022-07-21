@@ -34,7 +34,6 @@ permalink: /tourmap/
 <ol start="15">
 <li>Robot teams & swarms <a href="{% link _posts/2022-06-04-310-robot-teams.markdown %}"><span class="post-feta">310</span></a></li>
 <li>Robotic Manufacturing <a href="{% link _posts/2022-06-04-320-manufacturing.markdown %}"><span class="post-feta">320</span></a></li>
-<li>Computer vision <a href="{% link _posts/2022-06-04-330-computer-vision.markdown %}"><span class="post-feta">330</span></a></li>
-<li>Robots mapping & moving <a href="{% link _posts/2022-06-04-340-mapping.markdown %}"><span class="post-feta">340</span></a></li></ol>
+<li>Computer vision <a href="{% link _posts/2022-06-04-330-computer-vision.markdown %}"><span class="post-feta">330</span></a></li></ol>
 </div>
 

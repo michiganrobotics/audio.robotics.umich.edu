@@ -19,6 +19,7 @@ Michigan also has the unique opportunity to create this curriculum with a priori
 * [YouTube: ROB 102 - Intro to AI & Programming](https://www.youtube.com/watch?v=jZ0U339ewKo)
 * [YouTube: ROB 103 - Robotic Mechanisms](https://www.youtube.com/watch?v=95xv9ae5rcE)
 * [GitHub: ROB 101 - Computational Linear Algebra Course Material](https://github.com/michiganrobotics/rob101)
+* [Robotics Major in the College of Engineering](https://majors.engin.umich.edu/program/robotics/)
 
 
 
