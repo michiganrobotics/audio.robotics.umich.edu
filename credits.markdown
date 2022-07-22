@@ -5,6 +5,21 @@ permalink: /credits/
 ---
 
 ## Audio
+* Ezra Altabet
+* Mathias del Campo, from [CITYX VENICE AI Architects Panel](https://www.youtube.com/watch?v=OAQo9CY6gDw)
+* Jason Corso
+* Ross Cortino
+* Annie DeCastro, from [MRover's 2022 System Acceptance Review](https://www.youtube.com/watch?v=tp6KY05bgjM)
+* Alyssa Emigh
+* Jessy Grizzle
+* Michael Gonzalez
+* Christian Leonard
+* Peter Mitrano
+* Wami Ogunbi
+* Dmitra Panagou, from [ICRA 2021 Workshop on Safe Robot Control](https://www.youtube.com/watch?v=BVJZ1AWOEuI)
+* Kwesi Rutledge, from Nosa Edoimioya's [How to Do Grad School](https://twitter.com/htdgs) podcast
+* Shrey Sahgal, from [Michigan RoboSub's 2022 Competition Strategy](https://www.youtube.com/watch?v=S0JTE7hZgiM) 
+* Andrea Sipos
 
 ## Images
 * [Brenda Ahearn](https://brendaahearn.photoshelter.com/index): Robotic manufacturing
