@@ -3,6 +3,9 @@ layout: post
 title:  "Perception and reasoning"
 date:   2022-05-25 14:29:23 -0400
 audio_id: audio location 240
+accordion: 
+  - title: audio transcript
+    content: "<p>Once robots understand how to grasp objects, what then?</p><p>The Laboratory for Progress (Perceptive RObotics and Grounded REasoning SystemS) aims to discover methods for computational reasoning and perception that will enable robots to effectively assist people in common human environments. The lab’s goal is to make the physical world programmable through robots. This means being able to ask a robot to fold clothes, cook a meal, or clean a room, and the robot successfully understanding the task request, planning the steps to complete it, and executing the steps appropriately–even if it makes mistakes along the way.</p><p>Enabling robots to do all these tasks brings up the question, might they take over the world? Here’s Professor Chad Jenkins with his response.</p><p>I'll start with will robots take over the world? And my answer to that is no. Robots aren't nearly that smart. Maybe we as a community, as a robotics community, will make robots that smart. But they're nowhere near that right now. And in fact, I think robots will be helping humanity. We control the future of robotics, and I think we can do it the right way. And so a common example of this is with collaborator Henry Evans. And Henry suffered a stroke when he was about 40 years old. And he relies on other people to do things for him and I think be able to help people like Henry and others who are aging or people with disabilities to be able to do things on their own, be able to consume a meal, be able to scratch an itch, be able to do things on his own and live independently.</p>"
 ---
 
 <div class="audio-player">
@@ -12,6 +15,9 @@ audio_id: audio location 240
 ![A Fetch robot determines what to pick up](/assets/images/240-perception.jpg)
 
 Once robots understand how to grasp objects, what then? The Laboratory for Progress (Perceptive RObotics and Grounded REasoning SystemS) aims to discover methods for computational reasoning and perception that will enable robots to effectively assist people in common human environments. The lab's goal is to make the physical world programmable through robots. This means being able to ask a robot to fold clothes, cook a meal, or clean a room, and the robot successfully understanding the task request, planning the steps to complete it, and executing the steps appropriately–even if it makes mistakes along the way. 
+
+
+{% include accordion.html %}
 
 ## Related
 * [Lab for Progress](https://progress.eecs.umich.edu)
@@ -27,7 +33,7 @@ Once robots understand how to grasp objects, what then? The Laboratory for Progr
      title: 'Perception and reasoning',
      artist: 'audio location 240',
      cover: '/assets/images/240-perception.jpg',
-     src: '/assets/audio/140-robot-garden.mp3',
+     src: '/assets/audio/240-perception.mp3',
    },
    // fixed: {
    //   type: 'static',

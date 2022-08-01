@@ -3,6 +3,9 @@ layout: post
 title:  "ROB 550 Lab"
 date:   2022-05-28 14:29:23 -0400
 audio_id: audio location 210
+accordion: 
+  - title: audio transcript
+    content: "<p>This classroom lab space houses the first robotics graduate course students take, ROB 550. This course gives students the basics in building, programming, and refining autonomous machines so that they can sense, reason, and act. In the past, projects have included a self-balancing robot, a robot that can navigate a maze on its own, a drone that can pick up and drop off a payload, and a manipulating arm that can stack blocks.</p><p>Now, I introduce Michael and Ezra, graduate student instructors for the course who will take you through the lab.</p><p>Hello! My name’s Michael.</p><p>And my name is Ezra.</p><p>And we’re thrilled to welcome you to the ROB 550 lab.</p><p>This lab, run by Peter Gaskell, is one of the first steps new students in the Robotics program take toward building a hands-on foundation in Robotics-related skills and principles. You can think of it as a Robotics bootcamp.</p><p>In the ROB 550 course, students are organized into teams based on their previous engineering experience and work together to design and build various robots, then compete with those robots in classroom competitions.</p><p>Take a look around the lab and you’ll likely see many robots ranging from small to large. These robots are suited for many different purposes. From balancing, to autonomous navigation, to vision-integrated robotic arms.</p><p>You may even see some robots, such as the four-wheeled robot called the HUSKY, which is used by the military for off-road missions today!</p><p>The ROB 550 lab is also filled with workspaces for student teams and their projects.</p><p>Each station has an overhead RGB-Depth camera that is used for Computer Vision projects throughout the course,</p><p>You may also notice that each station is equipped with its own Linux computer and webcam, used for programming some of the projects, and also allows students to collaborate with their teammates remotely if needed.</p><p>Often the overhead RGB-Depth camera is used to identify objects on the table, and pass object coordinates to robotic arms that, depending on when you’re taking this tour, may be out on each of the student workspaces.</p><p>These robotic arms have several motorized joints that students learn to program, and can be autonomously coordinated to slide, stack, and sort blocks or complete other tasks like drawing on a whiteboard.</p><p>Projects in this lab are also geared toward teaching the fundamentals of Simultaneous Localization and Mapping, or SLAM, for short. </p><p>With SLAM, robots learn to construct a map of their surroundings and also determine where they are located on the map. SLAM is therefore key in the development of any modern exploration-focussed robot.</p><p>Students get to spend significant time programming miniature robots with SLAM, culminating in a competition where their robots have to complete a task, such as navigating through a maze completely autonomously!</p><p>These projects represent just a fraction of the topics covered in ROB 550.</p><p>Both Michael and I have both been through the course, and while it could be challenging at times, it provides a strong foundation for robotics education that students will use throughout robotics studies here.</p><p>Thanks for listening, and enjoy looking around the Robotics 550 Lab!</p>"
 ---
 
 <div class="audio-player">
@@ -12,6 +15,9 @@ audio_id: audio location 210
 ![Students watch as their robots compete in pathfinding competitions](/assets/images/210-rob-550.jpg)
 
 This classroom lab space houses the first robotics graduate course students take, ROB 550, which is informally a robot bootcamp. This course gives students the basics in building, programming, and refining the autonomous machines so that they can sense, reason, and act. Projects have included a self-balancing robot, a robot that can navigate a maze on its own, a drone that can pick up and drop off a payload, and a manipulating arm that can stack blocks.
+
+
+{% include accordion.html %}
 
 ## Related
 * [YouTube: ROB 550 Arm Lab](https://www.youtube.com/watch?v=mMpqfWPHeX4)
@@ -30,7 +36,7 @@ This classroom lab space houses the first robotics graduate course students take
      title: 'ROB 550 Lab',
      artist: 'Location 210',
      cover: '/assets/images/210-rob-550.jpg',
-     src: '/assets/audio/140-robot-garden.mp3',
+     src: '/assets/audio/210-550-lab.mp3',
    },
    // fixed: {
    //   type: 'static',

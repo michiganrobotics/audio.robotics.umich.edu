@@ -3,14 +3,38 @@ layout: post
 title:  "Fly Lab"
 date:   2022-06-05 14:29:23 -0400
 audio_id: audio location 110
+accordion: 
+  - title: audio transcript
+    content: "<p>Walking around the Robotics Building, you might hear a buzzing sound. That probably isn’t Michigan’s state bird, the mosquito, no, it’s more likely a drone.</p><p>Equipped with high-speed motion-capture cameras, this three-story fly zone enables researchers to test drones and other autonomous aerial systems indoors. This complements the M-Air facility right outside, giving aerial and autonomous systems increasingly real-world testing grounds to prove their safety and reliability. Out there, they fly drones in any weather, proving their work in summer heat, winter snow and derecho wind.</p><p>These drones must respond quickly to real time changes in their environment, which is a common thread in robotics. Through the several actions a drone can take, the drone can stay safely in flight. These actions, such as throttling motors, pitching, or rolling, all make up its control system. But control systems aren’t just in drones, and not just in robotics, they’re everywhere! Just listen to Electrical Engineering PhD student Kwesi Rutledge explain his research focus.</p><p>Focusing on something called control theory, which the way that I like to describe it is stolen from, I guess, this class that I really liked and inspired me to take this career path where this is a dynamics class and it's basically the study of how things change around the world and it can be anything as small as a robot moving to, we also talked about things like in biology, when there are predators and prey in an environment and they're kind of duking it out and their populations are oscillating–there's also some changing dynamics there. So you can model all these things with differential equations, and if you can ever influence that system or you can do something like, I don't know, protect some of the animals or control the actuators of the robot, you have a control that you can add to that system and that we call it a control system.</p>"
 ---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
 
 ![Prince holding a drone](/assets/images/110-fly-lab.jpg)
 
 Equipped with high-speed motion-capture cameras, this three-story fly zone enables researchers to test drones and other autonomous aerial systems indoors. This complements the M-Air facility right outside, giving aerial and autonomous systems increasingly real-world testing grounds to prove their safety and reliability.
 
-
+{% include accordion.html %}
 
 ## Related
 * [YouTube: Drone performing autonomous roofing](https://www.youtube.com/watch?v=GA445Flxkjo)
 * [YouTube: Using swarms of UAVs to fight wildfires](https://www.youtube.com/watch?v=XNF_Sddlgy4)
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Fly Lab',
+     artist: 'Location 110',
+     cover: '/assets/images/110-fly-lab.jpg',
+     src: '/assets/audio/110-fly-lab.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>

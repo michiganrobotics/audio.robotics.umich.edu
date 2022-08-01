@@ -5,6 +5,7 @@ permalink: /credits/
 ---
 
 ## Audio
+* Victoria Alden
 * Ezra Altabet
 * Mathias del Campo, from [CITYX VENICE AI Architects Panel](https://www.youtube.com/watch?v=OAQo9CY6gDw)
 * Jason Corso

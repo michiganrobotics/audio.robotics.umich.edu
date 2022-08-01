@@ -3,7 +3,15 @@ layout: post
 title:  "Rehabilitation Lab"
 date:   2022-06-02 14:29:23 -0400
 audio_id: audio location 130
+accordion: 
+  - title: audio transcript
+    content: "<p>A theme here is the overlap across robotics research that enables collaboration: work on legged robots and how they move can help create new prosthetics to help humans move, and the work on controlling prosthetics can be brought back to walking robots.</p><p>In this space, mechanics and controls are used to develop advanced prosthetics. A movable “earthquake platform,” or it’s technical name of a Stewart platform, can tilt in any direction, force-feedback plates measure ground contact and a two-belt variable treadmill enables testing of lower-limb prosthetics.</p><p>And when research is being conducted, the glass can turn opaque for privacy during testing. The end focus of this work is to improve day-to-day lives, as PhD student Ross Cortino explains.</p><p>I’m a 3rd-year Ph.D. student working for Dr. Bobby Gregg in the Locomotor Control Systems Laboratory, LocoLab for short. Our primary focus is building and controlling powered prosthetic legs and exoskeletons to improve the quality of life for potential users, focusing on activities of daily living such as walking, stair climbing, and sit-to-stand, as well as transitions between any of these activities.</p><p>Currently, the use of these powered devices is limited to academic or clinical research spaces due to a number of factors including battery life, weight, cost, and lack of comprehensive control strategies that can safely handle anything a potential user would want to throw at it.</p><p>That is why we in the LocoLab are actively committed to designing our devices around users’ needs and working on ways to make adaptive controllers that are not only easy to use but easy for the user and their clinician to understand. We hope this will lead to improved mobility and an overall better experience in their day-to-day lives.</p>"
 ---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
 ![Open-source bionic leg](/assets/images/130-rehab-lab.jpg)
 
 This space combines mechanics and controls to develop advanced prosthetics that improve quality of life for people with limb loss. A movable “earthquake platform," or it's technical name of a Stewart platform, can tilt in any direction, force-feedback plates measure ground contact and a two-belt variable treadmill enables testing of lower-limb prosthetics.
@@ -11,8 +19,27 @@ This space combines mechanics and controls to develop advanced prosthetics that 
 The glass can turn opaque for privacy during testing.
 
 
+{% include accordion.html %}
 
 ## Related
 * [YouTube: Open-Source Bionic Leg](https://www.youtube.com/watch?v=Rqla0u813r8)
 * [Locomotor Control Systems Lab](https://web.eecs.umich.edu/locolab/)
 * [Neurobionics Lab](https://neurobionics.robotics.umich.edu)
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Rehabilitation Lab',
+     artist: 'Location 120',
+     cover: '/assets/images/130-rehab-lab.jpg',
+     src: '/assets/audio/130-rehab-lab.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>
