@@ -20,7 +20,7 @@
 
 title: Ford Robotics Building Audio Tour
 email: robotics-contact@umich.edu
-description: An audio tour of the University of Michigan Robotics Department's main building.
+description: An audio tour of the University of Michigan Robotics Department's home.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://audio.robotics.umich.edu" # the base hostname & protocol for your site, e.g. http://example.com
 minima:
