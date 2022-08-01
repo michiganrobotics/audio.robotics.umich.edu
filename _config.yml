@@ -20,10 +20,9 @@
 
 title: Ford Robotics Building Audio Tour
 email: robotics-contact@umich.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  An audio tour of the Robotics Building.
+description: An audio tour of the University of Michigan Robotics Department's main building.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "audio.robotics.umich.edu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://audio.robotics.umich.edu" # the base hostname & protocol for your site, e.g. http://example.com
 minima:
   social_links:
     twitter: umrobotics
