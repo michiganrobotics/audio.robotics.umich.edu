@@ -6,6 +6,7 @@ audio_id: audio location 250
 accordion: 
   - title: audio transcript
     content: "<p>The study of robots anywhere not indoors, or more specifically in unstructured and dynamic environments, is called field robotics.</p><p>The Field Robotics Group at Michigan puts robots to the test across sea, land, air, and space. Have you ever tried to have a conversation underwater? Much like the muddled sound you hear, these environments can introduce extremely noisy data, requiring complex algorithms to find out what is actually sensed among the signals.</p><p>In deep water, for example, not only can you not see very well due to low light, but colors themselves are colors shifted from their normal wavelengths.</p><p>However, through developing robot vision and machine learning algorithms, researchers can still utilize such raw data, no matter how dark or shifted, and refine it to achieve their goals, enabling tasks such as autonomous mapping and even helping to detect shipwrecks underwater. And, of course, anything that can help deep in water can improve autonomous vehicle sensor data used on land.</p>"
+image: /assets/images/250-autonomous-vehicles.jpg
 ---
 
 <div class="audio-player">

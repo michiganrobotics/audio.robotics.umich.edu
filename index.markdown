@@ -4,4 +4,5 @@
 
 layout: home
 featured_image: "https://audio.robotics.umich.edu/assets/images/featured.jpg"
+image: /assets/images/featured.jpg
 ---

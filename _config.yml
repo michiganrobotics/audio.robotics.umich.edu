@@ -24,6 +24,12 @@ description: Audio exploration of Michigan Robotics
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://audio.robotics.umich.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
+twitter:
+  username: umrobotics
+
+author:
+    twitter: umrobotics
+    
 minima:
   social_links:
     twitter: umrobotics

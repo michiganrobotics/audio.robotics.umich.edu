@@ -6,6 +6,7 @@ audio_id: audio location 150
 accordion: 
   - title: audio transcript
     content: "<p>Labs and classrooms aren’t the only places where students can put their knowledge to action. Michigan Engineering has plenty of student teams that work on autonomous systems and compete internationally.</p><p>This includes autonomous rovers, boats, aerial systems, exoskeletons and more. This space is connected to the high-bay garages in the back of the building, and makerspace just next door.</p><p>This enables teams like Michigan Robotics Submarine to design, build, redesign, and rebuild year after year, as Shrey Sahgal explains.</p><p>Our submarine from our first competition season, Huron, was a great start. We made several changes when designing Erie in order to address the numerous problems that came up in the manufacturing process, the electrical component placement and the software testing. For Erie, a big emphasis was placed on modularity. The mechanical design is such that once the complex hull was fabricated, the rest of the sub could be easily manufactured and assembled.</p><p>The hull is open and spacious, allowing for easy electronics placement and has an upward facing window, allowing us to monitor indicator lights from dry land. Michigan RoboSub is all about striving for success and improving our shortcomings, where a young team with the right mindset, and we reach for the stars.</p>"
+image: /assets/images/150-student-team-incubator.jpg
 ---
 
 <div class="audio-player">
