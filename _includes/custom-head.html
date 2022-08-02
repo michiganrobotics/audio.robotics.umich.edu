@@ -1,14 +1,16 @@
-   <!-- Open Graph / Facebook -->
+   <meta name="twitter:card" content="summary_large_image">
+
+  {% if page.featured_image %}
+   <meta property="og:image" content="{{ page.featured_image }}">
+   <meta name="twitter:image" content="{{ page.featured_image }}">
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://audio.robotics.umich.edu/">
    <meta property="og:title" content="Ford Robotics Building Audio Tour">
    <meta property="og:description" content="An audio exploration of the University of Michigan Robotics Department's home.">
-   <meta property="og:image" content="https://audio.robotics.umich.edu/assets/images/featured.jpg">
-
-   <!-- Twitter -->
-   <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:image" content="https://audio.robotics.umich.edu/assets/images/featured.jpg">
-  
+  {% endif %}
+  {% if page.og_audio %}
+     <meta property="og:audio" content="{{ site.url }}{{ page.og_audio }}" />
+  {% endif %}
    <link rel="stylesheet" href="/assets/audio-player/shikwasa.min.css">
    <script src="/assets/audio-player/shikwasa.min.js"></script>
    
