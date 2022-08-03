@@ -2,6 +2,7 @@
 layout: page
 title: Tour Map
 permalink: /tourmap/
+image: /assets/images/map-audio-tour.jpg
 ---
 
 ![building tour map](/assets/images/map-audio-tour.jpg)
