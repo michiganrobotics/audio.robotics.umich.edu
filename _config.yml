@@ -64,6 +64,7 @@ remote_theme: jekyll/minima@296bf6b872b8450529bee1e48d0ca9be200a4be5
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude: ['README.md']
 
 permalink: /:title:output_ext
 
