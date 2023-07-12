@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Sensing with LIDAR"
+date:   2022-06-05 13:29:23 -0400
+audio_id: audio location 115
+accordion: 
+  - title: audio transcript
+    content: "<p>Wave hello, you’re on TV! You’re looking at one way that a robot sees its environment.</p><p>Before robots reason, act, and interact, they have to sense what’s around them. Sensing requires sensors, like the LIDAR above this TV.</p><p>LIDAR works a bit like echolocation, which is when bats use sound to know where things are when they fly in the dark. They do this by emitting noises and listening to the echoes bouncing off objects to figure out what's around them.</p><p>Instead of yelling in high frequency, Velodyne's 16-beam LIDAR, which stands for Light Detection and Ranging, shoots out lasers. This system sends out 16 laser beams and measures the time it takes for the light to return to figure out how far away things are. These are used on all sorts of robots, like on a self-driving car to create a 3D map of its surroundings. This helps it know where other cars, people, and objects are to make the right decisions and drive safely.</p>"
+image: /assets/images/115-sensing.jpg
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![Cassie lidar field](/assets/images/115-sensing.jpg)
+
+Wave hello! Robots use sensors, like the LIDAR above this TV, to see the world around them. It works a bit like echolocation, which is when bats use sound to know where things are when they fly in the dark. They do this by emitting noises and listening to the echoes bouncing off objects to figure out what's around them.
+
+Velodyne's LIDAR, which stands for Light Detection and Ranging, emits lasers instead of sound. This system sends out 16 laser beams and measures the time it takes for the light to return to figure out how far away things are. These are used on all sorts of robots, like on a self-driving car to create a 3D map of its surroundings helping it know where other cars, people, and objects are to make the right decisions and drive safely. 
+
+{% include accordion.html %}
+
+## Related
+* [YouTube: Cassie autonomously navigates around objects](https://www.youtube.com/watch?v=3HVJotA-w4Y)
+* [Research: Depth Estimation from LiDAR and Stereo](https://fcav.engin.umich.edu/projects/disparity-lidar-and-stereo)
+
+<!-- <script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Fly Lab',
+     artist: 'Location 115',
+     cover: '/assets/images/115-sensing.jpg',
+     src: '/assets/audio/115-sensing.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ }) -->
+
+<!-- </script> -->
