@@ -25,12 +25,12 @@ Velodyne's LIDAR, which stands for Light Detection and Ranging, emits lasers ins
 * [YouTube: Cassie autonomously navigates around objects](https://www.youtube.com/watch?v=3HVJotA-w4Y)
 * [Research: Depth Estimation from LiDAR and Stereo](https://fcav.engin.umich.edu/projects/disparity-lidar-and-stereo)
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
 
  const player = new Shikwasa({
    container: () => document.querySelector('.audio-player'),
    audio: {
-     title: 'Fly Lab',
+     title: 'Sensing with LIDAR',
      artist: 'Location 115',
      cover: '/assets/images/115-sensing.jpg',
      src: '/assets/audio/115-sensing.mp3',
@@ -38,6 +38,6 @@ Velodyne's LIDAR, which stands for Light Detection and Ranging, emits lasers ins
    // fixed: {
    //   type: 'static',
    // }
- }) -->
+ })
 
-<!-- </script> -->
+</script>
