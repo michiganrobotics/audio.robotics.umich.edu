@@ -26,8 +26,9 @@ In these boxes, individuals and groups get to represent themselves in any manner
 
 If you are a member of the community, and a box is empty, you can join the project by contacting robotics.art.project@umich.edu.
 
-Current art:
-|       | 1 | 2             | 3                                | 4               | 5            | 6 | 7 |
+### Current art layout
+
+| Column/<br>Row | 1 | 2             | 3                                | 4               | 5            | 6 | 7 |
 |-------|---|---------------|----------------------------------|-----------------|--------------|---|---|
 | **1** |   |               |                                  |                 |              |   |   |
 | **2** |   |               |                                  |                 |              |   |   |
