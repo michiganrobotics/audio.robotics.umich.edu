@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://audio.robotics.umich.edu"><img src="https://robotics.umich.edu/wp-content/uploads/2021/03/FordRoboticsNight.jpg" alt="Robotics Building at Night" width="100%"></a>
+  <a href="https://audio.robotics.umich.edu"><img src="/assets/images/FordRoboticsNight.jpg" alt="Robotics Building at Night" width="100%"></a>
   <br>
   Ford Robotics Building Audio Tour
   <br>
@@ -9,7 +9,7 @@
 
 <h4 align="center">An audio tour covering the University of Michigan's Ford Motor Company Robotics Building.</h4>
 
-![screenshot](http://robotics.umich.edu/wp-content/uploads/2023/01/audio-tour-mockups.png)
+![screenshot](/assets/images/audio-tour-mockups.png)
 
 ## How to use
 
