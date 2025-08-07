@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Insect-scale and soft robotics"
+date:   2022-06-01 11:29:23 -0400
+audio_id: audio location 147
+accordion: 
+  - title: audio transcript
+    content: "<p>Taking note from the natural world is often a design shortcut in engineering. Like the idea of Velcro from verse. Looking at how organisms evolved, researchers can mimic techniques that take advantage of certain physical phenomena. One focus of the Noetic Robotics Lab here is on how organisms store energy throughout their bodies. And they hope to mimic these findings to improve the performance of machines, especially those that are the same size as a bug.</p><p>At the insect scale, every milligram matters. We just said, like, let's just sail past all of that and just use a video game cheat code and and just power our robot with the smallest explosions possible and put two tiny internal combustion engines on board it. And it works. And it sounds like a combustion engine, which is probably the my favorite part of it. Cameron's penny sized engine runs on a constant stream of methane and oxygen.</p>"
+image: /assets/images/147-insect-scale.jpg
+---
+
+<div class="audio-player">
+   <!-- this is where the player will be injected -->
+</div>
+
+![Robots pose on the stairs](/assets/images/147-insect-scale.jpg)
+
+In this wet chemistry lab, the Zoetic Robotics Lab takes inspiration from nature to improve the endurance, adaptability, and autonomy of robots. This group works on creating new materials, clever mechanical designs, and unique power systems for robots, some no bigger than insects! 
+
+To aid in this work, you can see a specialized 3D printer in the corner. Instead of merely using plastics, this printer builds with soft, stretchable rubbers to enable flexible, lifelike robot designs.
+
+{% include accordion.html %}
+
+## Related
+* [YouTube: Using tiny combustion engines to power very tiny robots](https://www.youtube.com/watch?v=DuVp039l7d4)
+* [Zoetic Robotics Lab](https://www.zoeticrobotics.com)
+
+
+
+
+
+<script type="text/javascript">
+
+ const player = new Shikwasa({
+   container: () => document.querySelector('.audio-player'),
+   audio: {
+     title: 'Robot Garden',
+     artist: 'Location 140',
+     cover: '/assets/images/147-insect-scale.jpg',
+     src: '/assets/audio/147-insect-scale.mp3',
+   },
+   // fixed: {
+   //   type: 'static',
+   // }
+ })
+
+ </script>
