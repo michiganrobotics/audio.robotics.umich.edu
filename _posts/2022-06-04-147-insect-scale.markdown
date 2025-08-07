@@ -34,8 +34,8 @@ To aid in this work, you can see a specialized 3D printer in the corner. Instead
  const player = new Shikwasa({
    container: () => document.querySelector('.audio-player'),
    audio: {
-     title: 'Robot Garden',
-     artist: 'Location 140',
+     title: 'Insect-scale & soft robotics',
+     artist: 'Location 147',
      cover: '/assets/images/147-insect-scale.jpg',
      src: '/assets/audio/147-insect-scale.mp3',
    },

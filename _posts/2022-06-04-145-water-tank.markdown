@@ -35,8 +35,8 @@ Labs like the Field Robotics Group develop robot vision and machine learning alg
  const player = new Shikwasa({
    container: () => document.querySelector('.audio-player'),
    audio: {
-     title: 'Robot Garden',
-     artist: 'Location 140',
+     title: 'Research water tank',
+     artist: 'Location 145',
      cover: '/assets/images/145-water-tank.jpg',
      src: '/assets/audio/145-water-tank.mp3',
    },
