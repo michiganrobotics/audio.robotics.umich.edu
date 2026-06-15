@@ -15,16 +15,15 @@ image: /assets/images/145-water-tank.jpg
 
 ![Underwater autonomous vehicle waits for instructions next to the hull of a boat under the lake's surface](/assets/images/145-water-tank.jpg)
 
-In this 10,000 gallon water tank, researchers put robots to the test in the unforgiving–to electonics–water. Beyond the moisture that can short out components, water makes many other tasks harder: sensing, communciating, and moving, especially in teams of robots. In deep water, for example, vision can be hazy and dark, with colors shifted from their normal wavelengths. 
+In this 10,000-gallon tank, researchers test robots built to work underwater. Beyond shorting out components, water makes a robot's other tasks harder too: sensing the environment in murky, dark water where color wavelengths shift; communicating through the water with other robots or a remote operator; and moving against strong currents and waves.
 
-Labs like the Field Robotics Group develop robot vision and machine learning algorithms to utilize raw data, such as from sonar, and refine it to achieve their goals, enabling tasks such as autonomous mapping and shipwreck detection underwater. This tank is outfitted with above and underwater motion capture cameras, helping researchers to accurately test their robot’s position.
+At Michigan, research labs develop computer vision and machine learning algorithms that turn raw sensor data such as sonar into usable information. This enables tasks like autonomous mapping and shipwreck detection. The tank is outfitted with motion-capture cameras that track each robot's exact position, giving researchers a ground-truth reference for measuring how well those algorithms actually work.
 
 {% include accordion.html %}
 
 ## Related
 * [YouTube: A 10,000 gallon robotics research water tank](https://www.youtube.com/watch?v=CxkPDz2u3UY)
 * [YouTube: Artificial Intelligence Trained to Find Shipwrecks](https://www.youtube.com/watch?v=UtNK1Ite8no)
-* [Field Robotics Group](https://fieldrobotics.engin.umich.edu)
 
 
 
