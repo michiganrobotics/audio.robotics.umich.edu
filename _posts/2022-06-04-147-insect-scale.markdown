@@ -3,6 +3,7 @@ layout: post
 title:  "Insect-scale and soft robotics"
 date:   2022-06-01 11:29:23 -0400
 audio_id: audio location 147
+location: 147
 accordion: 
   - title: audio transcript
     content: "<p>Taking note from the natural world is often a design shortcut in engineering. Like the idea of Velcro from verse. Looking at how organisms evolved, researchers can mimic techniques that take advantage of certain physical phenomena. One focus of the Noetic Robotics Lab here is on how organisms store energy throughout their bodies. And they hope to mimic these findings to improve the performance of machines, especially those that are the same size as a bug.</p><p>At the insect scale, every milligram matters. We just said, like, let's just sail past all of that and just use a video game cheat code and and just power our robot with the smallest explosions possible and put two tiny internal combustion engines on board it. And it works. And it sounds like a combustion engine, which is probably the my favorite part of it. Cameron's penny sized engine runs on a constant stream of methane and oxygen.</p>"

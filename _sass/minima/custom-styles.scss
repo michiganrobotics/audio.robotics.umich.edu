@@ -96,10 +96,106 @@ h1,h2,h3,h4,h5,h6,.site-title{
 	margin-bottom:1em;
 }
 
+/* Home page tour cards */
+.floor-heading{
+	margin-top:1.2em;
+}
+
+.tour-grid{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+	gap:1em;
+	margin-bottom:1.5em;
+}
+
+.tour-card{
+	display:flex;
+	flex-direction:column;
+	border:1px solid #ddd;
+	border-radius:6px;
+	overflow:hidden;
+	background:#fff;
+	text-decoration:none;
+	color:inherit;
+	transition:box-shadow .15s ease-in-out, transform .15s ease-in-out;
+}
+
+.tour-card:hover,
+.tour-card:focus{
+	box-shadow:0 4px 14px rgba(0,0,0,.15);
+	transform:translateY(-2px);
+	text-decoration:none;
+}
+
+.tour-card-image{
+	display:block;
+	width:100%;
+	padding-top:60%; /* 5:3 aspect ratio */
+	background-size:cover;
+	background-position:center;
+	background-color:#eee;
+}
+
+.tour-card-body{
+	display:block;
+	padding:.6em .75em .8em;
+}
+
+.tour-card-title{
+	display:block;
+	font-family:'Roboto Condensed',sans-serif;
+	font-size:1.15em;
+	line-height:1.2;
+	margin-top:.15em;
+}
+
 #related{
 	margin-top:1em;
 	background:#eeeeee;
 	padding:.5em;
+}
+
+/* Interactive tour map */
+.map-hint{
+	color:rgb(87,87,87);
+	font-style:italic;
+	margin-bottom:.4em;
+}
+
+.tour-map-wrap{
+	position:relative;
+	display:block;
+	line-height:0;
+}
+
+.tour-map-wrap img{
+	width:100%;
+	height:auto;
+}
+
+.map-pin{
+	position:absolute;
+	width:4.5%;
+	aspect-ratio:1;
+	transform:translate(-50%,-50%);
+	border-radius:50%;
+	border:2px solid transparent;
+	box-sizing:border-box;
+	/* sits over the pin already drawn on the image */
+}
+
+.map-pin span{
+	/* number is baked into the map image; keep label for accessibility only */
+	position:absolute;
+	width:1px;height:1px;
+	overflow:hidden;
+	clip:rect(0 0 0 0);
+}
+
+/* anchors already show a pointer cursor; keep only a keyboard-focus ring */
+.map-pin:focus-visible{
+	border-color:#FFCB05;
+	outline:none;
 }
 
 .post-meta{

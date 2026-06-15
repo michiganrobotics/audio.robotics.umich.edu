@@ -10,52 +10,34 @@ layout: default
   {{ content }}
 <h2>Start exploring below.</h2>
 <p>This audio tour covers points of interest in the University of Michigan's Ford Motor Company Robotics Building, home to the <a href="https://robotics.umich.edu">Robotics Department</a> and typically open to visit Monday through Friday, 7am to 7pm. If you need help finding a location, consult <a href={% link tour-map.markdown %}>the map</a>.</p><p>For other tour options, included guided tours, you can check on availability at our <a href="https://tours.robotics.umich.edu/signup">Robotics Building tour site</a>.</p><p>We kindly request that you respect the focus and concentration of our researchers in the labs during your tour of the building. Your cooperation is greatly appreciated.</p>
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
+  {%- assign posts = site.posts | sort: "location" -%}
 
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.audio_id }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
+    {%- assign current_floor = 0 -%}
+    {%- for post in posts -%}
+      {%- assign floor = post.location | divided_by: 100 -%}
+      {%- if floor != current_floor -%}
+        {%- unless forloop.first -%}</div>{%- endunless -%}
+        {%- assign current_floor = floor -%}
+        {%- case floor -%}
+          {%- when 1 -%}<h2 class="floor-heading">1st floor</h2>
+          {%- when 2 -%}<h2 class="floor-heading">2nd floor</h2>
+          {%- when 3 -%}<h2 class="floor-heading">3rd floor</h2>
+          {%- else -%}<h2 class="floor-heading">More stops</h2>
+        {%- endcase -%}
+        <div class="tour-grid">
+      {%- endif -%}
+        <a class="tour-card" href="{{ post.url | relative_url }}">
+          {%- if post.image -%}
+          <span class="tour-card-image" style="background-image:url('{{ post.image | relative_url }}')"></span>
+          {%- endif -%}
+          <span class="tour-card-body">
+            <span class="post-meta">{{ post.location }}</span>
+            <span class="tour-card-title">{{ post.title | escape }}</span>
+          </span>
+        </a>
+      {%- if forloop.last -%}</div>{%- endif -%}
+    {%- endfor -%}
   {%- endif -%}
 
 </div>

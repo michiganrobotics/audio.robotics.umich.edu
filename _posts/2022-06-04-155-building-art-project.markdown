@@ -3,6 +3,7 @@ layout: post
 title:  "Building Art Project"
 date:   2022-05-31 17:29:23 -0400
 audio_id: audio location 155
+location: 155
 accordion: 
   - title: audio transcript
     content: "<p>If a robot draws a picture, is it an artist?</p><p>One thing is for certain, our building is full of creativity. This collaborative work of art is full of art boxes that represent each artist’s or group’s take on what it’s like contributing to the advancement of robotics.</p><p>Our staff, students, and faculty work in a variety of roles and on a variety of problems–while some work directly on robotics, some work on funding their work, while others on maintaining the physical spaces, or a number of other related tasks. Put together, we achieve much greater results than working alone, just as the impact of this piece is greater together than separated.</p>"
